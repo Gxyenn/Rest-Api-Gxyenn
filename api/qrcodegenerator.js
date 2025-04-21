@@ -7,7 +7,7 @@ router.get("/", async (req, res) => {
     try {
         const { text } = req.query;
         if (!text) {
-            return res.status(400).json({ status: 400, message: "Masukkan teks dalam query, contoh: /api/qrcode?text=HelloWorld" });
+            return res.status(400).json({ status: 400, message: "Masukkan teks dalam query, contoh: /api/qrcode?text=HollaGxyrnn" });
         }
 
         res.setHeader("Content-Type", "image/png");
