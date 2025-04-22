@@ -27,6 +27,7 @@
     --welcome-text: #37474f;
     --copyright-color: #777;
 }
+
 .loading-screen {
   position: fixed;
   top: 0; left: 0;
@@ -87,6 +88,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .dark-theme {
     --primary-color: #2196f3;
     --primary-hover: #64b5f6;
